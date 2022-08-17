@@ -19,3 +19,14 @@ console.log(isValid,typeof(isValid))
 console.log(x,typeof(x))
 console.log(y,typeof(y),y===null)
 console.log(z,typeof(z))
+
+let temp = 123;
+let temp1 = temp;
+temp1 = 987
+let greetings = "Everyday is  a new beginning"
+console.log(temp1,temp)
+console.log(greetings.toLocaleUpperCase());
+console.log(greetings.substring(3,4));
+console.log(greetings.charAt(3))
+console.log(temp.toString())
+console.log(isValid.toString())
