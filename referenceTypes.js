@@ -47,9 +47,9 @@ console.log(greetingsUser("HTML&CSS"))
 
 
 var regExp = /\d+/;
-console.log(typeof(object1),object1 instanceof Object)
-console.log(typeof(colors), colors instanceof Array)
-console.log(typeof(error), error instanceof Error)
-console.log(typeof(currentDate), currentDate instanceof Date)
-console.log(typeof(myFunc), myFunc instanceof Function)
-console.log(typeof(regEx), regEx instanceof RegExp)
+console.log(typeof(object1),object1 instanceof Object, object1 instanceof Array)
+console.log(typeof(colors), colors instanceof Array, colors instanceof Object)
+console.log(typeof(error), error instanceof Error, error instanceof Object)
+console.log(typeof(currentDate), currentDate instanceof Date), currentDate instanceof Object
+console.log(typeof(myFunc), myFunc instanceof Function,myFunc instanceof Object)
+console.log(typeof(regEx), regEx instanceof RegExp, regEx instanceof Object)
