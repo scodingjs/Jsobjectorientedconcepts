@@ -34,7 +34,7 @@ let patient = {
 }
 console.log(`${patient.name} loves ${flowers.june}, a bunch of fresh ${flowers.july}s will also help her recover fast`)
 let fn = ["Jasmine","Rose","Barbie","Snow"]
-let sn = new Array("Job","Kavin","KAthir","Harry","Peter");
+let sn = new Array("Job","Kavin","Kathirvelan","Harry","Peter");
 console.log(sn,fn);
 
 function welcomeUser(welcomeUser){

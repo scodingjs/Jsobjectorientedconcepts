@@ -22,5 +22,7 @@ var printOdd= function(n){
 
 }
 
+
+
 console.log(`ODD ${printOdd(10)}`)
 console.log(`Even ${printEven(10)}`)
